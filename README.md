@@ -16,13 +16,13 @@ Waiting for Developer to take on Task Request.
 
 ## Contributing
 
-See Contributing Document
+See [Contributing Document](https://github.com/deveerei/steemplay/blob/master/contributing).
 
 ## Authors
 
 [Deveerei](https://utopian.io/@deveerei)
 
-See also the list of contributors.
+See also the [list of contributors](https://github.com/deveerei/steemplay/blob/master/contributors).
 
 ## License
 
@@ -31,4 +31,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * N/A
+
+## Follow Updates!
+
+Go to https://steemit.com/@deveerei | https://utopian.io/@deveerei
 
