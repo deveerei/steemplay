@@ -1,0 +1,203 @@
+<!--
+
+    0h h1!
+
+    You're peeking at the source code of 0h h1. Feel free to poke around. Nothing is explicitly minified
+    or uglified (other than the default result of me writing code). If you have any comments or questions,
+    feel free to drop me a line at martin@q42.nl or @mrtnkl.
+
+    - Martin
+
+    (c) 2014 Q42
+    http://q42.com | @q42
+
+    Oh Steem - version by @deveerei
+
+-->
+<!doctype html>
+<html>
+  <head>
+    <title>OhSteem</title>
+    <meta name="description" content="A little logic game by Q42. Edited by @deveerei." />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" type="image/png" href="img/icon-1024.png" />
+    <link rel="shortcut icon" href="img/icon-1024.png" />
+    <link rel="apple-touch-icon-precomposed" href="img/icon-1024.png"/>
+
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@deveerei" />
+    <meta name="twitter:creator" content="@deveerei" />
+    <meta name="twitter:title" content="OhSteem" />
+    <meta name="twitter:description" content="A little logic game by Q42. Edited by @deveerei" />
+    <meta name="twitter:image" content="https://deveerei.github.io/OhSteem/img/twitter-promotion.png" />
+    <meta name="twitter:url" content="https://deveerei.github.io/OhSteem/" />
+<!--     <meta name="twitter:app:country" content="US" />
+    <meta name="twitter:app:name:iphone" content="0h h1" />
+    <meta name="twitter:app:id:iphone" content="936504196" />
+    <meta name="twitter:app:url:iphone" content="https://itunes.apple.com/us/app/0h-h1/id936504196?mt=8" />
+    <meta name="twitter:app:name:ipad" content="0h h1" />
+    <meta name="twitter:app:id:ipad" content="936504196" />
+    <meta name="twitter:app:url:ipad" content="https://itunes.apple.com/us/app/0h-h1/id936504196?mt=8" />
+    <meta name="twitter:app:name:googleplay" content="0h h1" />
+    <meta name="twitter:app:id:googleplay" content="com.q42.ohhi" />
+    <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.q42.ohhi" />
+ -->
+
+    <meta property="og:url" content="https://deveerei.github.io/OhSteem/" />
+    <meta property="og:site_name" content="OhSteem" />
+    <meta property="og:title" content="OhSteem" />
+    <meta property="og:description" content="A little logic game by Q42. Edited by @deveerei" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://deveerei.github.io/OhSteem/img/facebook-promotion.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <style>html,body{background:#2c3a45;}</style>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="fonts/fonts.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body bgcolor="#2c3a45">
+    <div id="container">
+        <div id="title" class="screen show01 hide0 hide1 hidehs" data-action="close-titleScreen">
+            <div class="vertical">
+                <h2>OhSteem</h2>
+                <div id="titlegrid" class="board">
+                    <div id="digits">
+                        <span id="zero">O</span><span id="hs1">h</span><span id="one">S</span><span id="hs2">teem </span>
+                    </div>
+<table data-grid="titlegrid" cellpadding="0" cellspacing="0"><tbody><tr><td class="odd"><div class="tile tile-2"><div class="inner"></div></div></td><td class="even"><div class="tile tile-1"><div class="inner"></div></td></tr></tbody></table>
+
+                </div>
+                <p>
+                    a little logic game<br>by Q42<br>Edited by @deveerei
+                </p>
+            </div>
+        </div>
+
+        <div id="menu" class="screen">
+            <div class="vertical">
+            <h3>OhSteem</h3>
+                <p data-action="tutorial">
+                How to play
+                </p>
+                <p data-action="play">
+                Play
+                </p>
+                <p data-action="about">
+                    About
+                </p>
+            </div>
+        </div>
+
+        <div id="about" class="screen text" data-action="show-menu">
+            <div class="vertical">
+            <h3>About</h3>
+            <div class="side-padded">
+                <p>
+                OhSteem is a fork of little logic game<br>
+                by Q42 called 0h h1. <span id="app">If you like, you can also get the free 0h h1 app.</span><br>
+                <br>
+                It was created by<br>
+                Martin Kool.<br>
+                <br>
+                The concept is also known<br>
+                as Takuzu or Binairo.<br>
+                <br>
+                    This version is edited by @deveerei<br>
+                (c) 2014<br>
+                www.q42.com &middot; 0hh1.com
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="rules" class="screen text" data-action="show-game">
+            <div class="vertical">
+            <h3>Rules</h3>
+                <div class="side-padded">
+                <p>
+                    Three adjacent tiles of the same color
+                    in a row or column isn't allowed.
+                </p>
+                <p>
+                    Rows and columns have an equal number of each color.
+                </p>
+                <p>
+                    No two rows and no two columns are the same.
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="screen">
+            <div class="vertical">
+                <h2>Loading</h2>
+                <p></p>
+                <div id="loadinggrid" class="board">
+<table data-grid="loadinggrid" cellpadding="0" cellspacing="0"><tbody><tr><td class="odd"><div class="tile tile-2 loading"><div class="inner"></div></div></td></tr></tbody></table>
+</div>
+            </div>
+        </div>
+
+        <div id="game" class="screen">
+            <p id="hintMsg" class="topMsg"></p>
+            <p id="chooseSize" class="topMsg">Select a size to play...</p>
+            <h2 id="boardsize"></h2>
+            <div id="board" class="vertical board"></div>
+
+
+            <div id="menugrid" class="vertical board hidden">
+<table data-grid="menugrid" cellpadding="0" cellspacing="0"><tbody>
+<tr><td class="odd"><div class="tile tile-2"><div data-action="startGame" data-size="1" class="inner"></div></div></td><td class="even"><div class="tile tile-1"><div data-action="startGame" data-size="2" class="inner"></div></div></td></tr>
+<tr><td class="even"><div class="tile tile-1"><div data-action="startGame" data-size="3" class="inner"></div></div></td><td class="odd"><div class="tile tile-2"><div data-action="startGame" data-size="4" class="inner"></div></div></td></tr>
+</tbody></table>
+            </div>
+
+            <div id="score">
+                <img id="trophy" src="img/trophy.png"><span id="scorenr">42</span>
+            </div>
+            <div id="bar">
+                <div class="iconcon" data-action="back"><div id="back" class="icon"></div></div>
+                <div class="iconcon" data-action="undo"><div id="undo" class="icon"></div></div>
+                <a class="iconcon" id="tweeturl" target="_blank" href="about:blank" data-action="tweet"><span id="tweet" class="icon"></span></a>
+                <a class="iconcon" id="facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php" data-action="facebook"><span id="facebookicon" class="icon"></span></a>
+                <div class="iconcon" data-action="help"><div id="help" class="icon"></div></div>
+                <div class="iconcon" data-action="rules"><div id="rules" class="icon"></div></div>
+            </div>
+        </div>
+    </div>
+    <div id="feelsize"></div>
+    <script>
+        var WebFontConfig = {
+            custom: {
+                families: ['molle','Josefin Sans'],
+                urls: ['fonts/fonts.css']
+            },
+            active: function() {
+                //Game.start();
+                app.fontsLoaded();
+            }
+        };
+    </script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/state.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/grid.js"></script>
+    <script type="text/javascript" src="js/tile.js"></script>
+    <script type="text/javascript" src="js/hint.js"></script>
+    <script type="text/javascript" src="js/tutorial.js"></script>
+    <script type="text/javascript" src="js/webfont.js"></script>
+    <script type="text/javascript" src="js/levels.js"></script>
+    <script type="text/javascript" src="js/backgroundservice.js"></script>
+  </body>
+</html>
