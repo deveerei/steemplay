@@ -7,6 +7,7 @@ Everything about Steem Play may be found here: https://utopian.io/project/deveer
 # Contributions by Author:
 
 - https://utopian.io/utopian-io/@deveerei/steem-play-documentations-added
+- https://utopian.io/utopian-io/@deveerei/updating-documentations-for-steem-play-4-files-in-all
 
 # Task Requests by Author:
 
