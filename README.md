@@ -1,6 +1,4 @@
-# Project Title
-
-Steem Play
+# Steem Play
 
 ### Description
 
@@ -20,9 +18,9 @@ See [Contributing Document](https://github.com/deveerei/steemplay/blob/master/co
 
 ## Authors
 
-[Deveerei](https://utopian.io/@deveerei)
+[Deveerei](https://utopian.io/@deveerei) | [Ruah](https://utopian.io/@ruah) 
 
-See also the [list of contributors](https://github.com/deveerei/steemplay/blob/master/contributors).
+See also [the updated list of contributors](https://github.com/deveerei/steemplay/blob/master/contributors).
 
 ## License
 
@@ -30,7 +28,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* N/A
+We would like to thank everyone for supporting this ongoing project, especially for the community that we have in Steemit.com and in Utopian.io. We have been receiving our funding for free with our proof of brain efforts from those 2 mentioned websites. Do check them out if you have the time!
+
+## Connect with us!
+
+Join our Discord Server here: https://discord.gg/mKnWzVN
 
 ## Follow Updates!
 
