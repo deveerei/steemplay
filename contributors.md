@@ -1,3 +1,5 @@
+# <center> Contributors </center> <h1>
+
 This is the official List of Contributors for Steem Play. We will be adding everyone who contributed to the project to say a big thanks!
 This list is enumerated based on time of contribution (must be approved in Utopian.io).
 
